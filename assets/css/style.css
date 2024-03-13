@@ -25,7 +25,14 @@ table {
 
 }
 
+.nombre{
+    font-size: 18px;
+    text-align: center;
 
+
+;
+    
+}
 th, td {
     border: 0px solid #f4eded;
     padding: 12px;
