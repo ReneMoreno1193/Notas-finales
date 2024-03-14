@@ -11,19 +11,22 @@ table {
 .info-container {
     display: flex;
     flex-direction: column
+    
 }
 .subtitle{
-    margin-top: 0px; /* Ajusta según tu preferencia */
+    
     text-align: left; /* Alinea el texto a la izquierda */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: left;
+    margin-right: 10%; /* Espacio entre el subtítulo y el texto */
 }
 
-.subtitle p{
-    margin-bottom: 0;
+p {
+    text-align: center;
+    width: 35%;
 
 }
+
 
 .nombre{
     font-size: 18px;
@@ -33,22 +36,34 @@ table {
 ;
     
 }
+
 th, td {
     border: 0px solid #f4eded;
     padding: 12px;
     text-align: center;
+
 }
 
 th {
     background-color:white
+    
 }
 
 .col1{
     background-color: #000000;
     color: white;
-    
+    height: 20x;
+    transform: translateY(-50px);
 }
 
+.col{
+    transform: translateY(-50px);
+}
 
+button{
+    width: 15%;
+    transform: translateX(1000px);
+    
+}
 
 
